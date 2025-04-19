@@ -1,0 +1,68 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =====================
+# Docker
+# =====================
+*.log
+*.env
+docker-compose.override.yml
+.docker/
+
+# =====================
+# Visual Studio Code
+# =====================
+.vscode/
+.history/
+
+# =====================
+# Linux / General OS
+# =====================
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# =====================
+# Logs
+# =====================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =====================
+# Git
+# =====================
+.git/
+.gitignore
+
+# =====================
+# AWS / Boto3
+# =====================
+.aws/
+*.pem
+*.key
+credentials
+config
